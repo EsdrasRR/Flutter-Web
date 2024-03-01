@@ -1,7 +1,6 @@
 import 'package:flutter_svg/svg.dart';
 import 'package:portfolio/ui/common/app_colors.dart';
 import 'package:portfolio/ui/common/app_constants.dart';
-import 'package:portfolio/ui/common/shared_styles.dart';
 import 'package:portfolio/ui/common/ui_helpers.dart';
 import 'package:flutter/material.dart';
 import 'package:portfolio/ui/views/home/widgets/home_image.dart';
@@ -10,9 +9,7 @@ import 'package:portfolio/ui/views/home/widgets/home_subtitle.dart';
 import 'package:portfolio/ui/views/home/widgets/home_title.dart';
 import 'package:portfolio/ui/widgets/common/academy_icon.dart';
 import 'package:portfolio/ui/widgets/common/input_field.dart';
-import 'package:simple_gradient_text/simple_gradient_text.dart';
 import 'package:stacked/stacked.dart';
-
 import 'home_viewmodel.dart';
 
 class HomeViewDesktop extends ViewModelWidget<HomeViewModel> {
